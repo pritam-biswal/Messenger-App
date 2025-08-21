@@ -33,10 +33,9 @@ Designed with scalability for future backend integration.
 
 - 
 - # 📱 Messenger App  with Dark & Light Theme
-<img width="301" height="631" alt="Screenshot 2025-08-21 at 12 52 49 PM" src="https://github.com/user-attachments/assets/79b2882c-59b6-40eb-8bfc-1e113dc81ac8" />
-<img width="302" height="634" alt="Screenshot 2025-08-21 at 12 52 27 PM" src="https://github.com/user-attachments/assets/658576af-523a-4eec-baa8-0722891c860f" />
-<img width="304" height="645" alt="Screenshot 2025-08-21 at 12 52 08 PM" src="https://github.com/user-attachments/assets/c59066a4-3b78-4b2f-873a-c4b49b43a4be" />
-<img width="300" height="634" alt="Screenshot 2025-08-21 at 12 51 58 PM" src="https://github.com/user-attachments/assets/6e09d655-8558-44d0-81f2-e6cfd719f7e9" />
-<img width="296" height="639" alt="Screenshot 2025-08-21 at 12 51 46 PM" src="https://github.com/user-attachments/assets/602a1068-428a-433f-ad4c-afcda270a19d" />
-<img width="308" height="643" alt="Screenshot 2025-08-21 at 12 51 03 PM" src="https://github.com/user-attachments/assets/ba7f4d23-5702-4050-ae60-3dfb12918b3d" />
-
+<img width="342" height="690" alt="Screenshot 2025-08-21 at 1 22 19 PM" src="https://github.com/user-attachments/assets/7101d66e-efe9-4cf3-b06c-ab26c4b5282e" />
+<img width="355" height="685" alt="Screenshot 2025-08-21 at 1 22 00 PM" src="https://github.com/user-attachments/assets/2170ff9b-a5dc-46cf-adf6-89cfcfde70a0" />
+<img width="342" height="688" alt="Screenshot 2025-08-21 at 1 21 50 PM" src="https://github.com/user-attachments/assets/d4b15a8e-de5d-4ac2-9dd7-d19f67c1229b" />
+<img width="353" height="684" alt="Screenshot 2025-08-21 at 1 21 28 PM" src="https://github.com/user-attachments/assets/cbdaf14b-a6ce-4866-a9cf-1f96d99e7af6" />
+<img width="343" height="699" alt="Screenshot 2025-08-21 at 1 20 43 PM" src="https://github.com/user-attachments/assets/0f82f130-1416-4e4d-ae93-cb2b114eaca4" />
+<img width="352" height="691" alt="Screenshot 2025-08-21 at 1 20 14 PM" src="https://github.com/user-attachments/assets/6689f9c0-3ca7-4ab7-bc59-cface475b625" />
