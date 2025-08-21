@@ -30,8 +30,3 @@ Designed with scalability for future backend integration.
 ### Prerequisites  
 - Flutter SDK installed  
 - Android Studio / VS Code with Flutter extensions  
-
-### Installation  
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/your-username/Messenger-App.git
