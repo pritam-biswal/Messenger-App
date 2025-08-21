@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 📱 Messenger App  
 
 A modern Flutter-based messenger app with a clean and responsive UI.  
