@@ -119,7 +119,7 @@ class ChatScreen extends StatelessWidget {
           ),
           SizedBox(height: 10),
           Divider(color: Color(0xffEDEDED)),
-          SizedBox(height: 20,),
+          SizedBox(height: 20),
           UiHelper.customTextfield(
             controller: search,
             text: "Search",
@@ -127,7 +127,7 @@ class ChatScreen extends StatelessWidget {
             context: context,
             icondata: Icons.search_outlined,
           ),
-          SizedBox(height: 20,),
+          SizedBox(height: 20),
           Expanded(
             child: ListView.builder(
               itemBuilder: (context, index) {
@@ -158,11 +158,15 @@ class ChatScreen extends StatelessWidget {
                       ),
                       SizedBox(height: 2),
                       CircleAvatar(
-                        backgroundColor: Color(0xffD2D5F9),
+                        backgroundColor:
+                            Theme.of(context).brightness == Brightness.light
+                            ? Color.fromARGB(255, 204, 204, 250)
+                            : Color.fromARGB(199, 172, 220, 248),
                         child: UiHelper.customText(
                           text: arrContacts[index]["unread"].toString(),
-                          fontsize: 10,
-                          fontweight: FontWeight.w600,
+                          fontsize: 13,
+                          fontweight: FontWeight.w800,
+                          fontfamily: "bold",
                           context: context,
                         ),
                       ),
