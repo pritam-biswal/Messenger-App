@@ -4,6 +4,7 @@ import 'package:messenger_design/domain/constants/appthemes.dart';
 import 'package:messenger_design/domain/constants/cubits/themecubit.dart';
 import 'package:messenger_design/domain/constants/cubits/themestates.dart';
 import 'package:messenger_design/repository/screens/onboardingscreen.dart';
+import 'package:messenger_design/repository/screens/splash_screen/splash.dart';
 
 void main() {
   runApp(BlocProvider(create: (_) => ThemeCubit(), child: MyApp()));
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
           theme: state is LightThemeStates
               ? AppThemes.lightTheme
               : AppThemes.darkTheme,
-          home: Onboardingscreen(),
+          home: Splash_Screen(),
         );
       },
     );
