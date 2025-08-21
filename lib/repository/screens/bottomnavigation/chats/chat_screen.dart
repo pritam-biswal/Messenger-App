@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:messenger_design/domain/constants/appcolors.dart';
+import 'package:messenger_design/repository/screens/bottomnavigation/more/more_screen.dart';
+import 'package:messenger_design/repository/screens/profile/profile_screen.dart';
+import 'package:messenger_design/repository/screens/splash_screen/splash.dart';
 import 'package:messenger_design/repository/screens/widgets/uihelper.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class ChatScreen extends StatelessWidget {
   TextEditingController search = TextEditingController();
@@ -71,8 +75,15 @@ class ChatScreen extends StatelessWidget {
           context: context,
         ),
         actions: [
-          IconButton(onPressed: () {}, icon: Icon(Icons.chat_outlined)),
-          IconButton(onPressed: () {}, icon: Icon(Icons.more_vert_outlined)),
+          IconButton(onPressed: () {}, icon: Icon(Icons.spa_outlined)),
+          IconButton(onPressed: () async {
+            var sharedpref = await SharedPreferences.getInstance();
+                sharedpref.setBool(Splash_ScreenState.KEYLOGIN,true);
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => MoreScreen()),
+                );
+          }, icon: Icon(Icons.more_vert_outlined)),
         ],
       ),
       body: Column(

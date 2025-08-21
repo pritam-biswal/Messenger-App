@@ -2,7 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:messenger_design/domain/constants/appcolors.dart';
 import 'package:messenger_design/repository/screens/bottomnavigation/bottomnavigation_screen.dart';
+import 'package:messenger_design/repository/screens/splash_screen/splash.dart';
 import 'package:messenger_design/repository/screens/widgets/uihelper.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});

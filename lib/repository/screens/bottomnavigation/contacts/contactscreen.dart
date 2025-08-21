@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:messenger_design/domain/constants/appcolors.dart';
+import 'package:messenger_design/repository/screens/bottomnavigation/chats/chat_screen.dart';
+import 'package:messenger_design/repository/screens/profile/profile_screen.dart';
+import 'package:messenger_design/repository/screens/splash_screen/splash.dart';
 import 'package:messenger_design/repository/screens/widgets/uihelper.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class Contactscreen extends StatefulWidget {
   const Contactscreen({super.key});
@@ -54,7 +58,14 @@ class _ContactscreenState extends State<Contactscreen> {
           fontweight: FontWeight.w700,
           context: context,
         ),
-        actions: [IconButton(onPressed: () {}, icon: Icon(Icons.add))],
+        actions: [IconButton(onPressed: () async {
+          var sharedpref = await SharedPreferences.getInstance();
+                sharedpref.setBool(Splash_ScreenState.KEYLOGIN,true);
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => (ChatScreen())),
+                );
+        }, icon: Icon(Icons.message_outlined))],
       ),
       body: Center(
         child: Column(
